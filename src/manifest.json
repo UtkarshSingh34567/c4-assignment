@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Your Extension Name",
+    "version": "1.0",
+    "background": {
+      "service_worker": "extension/background.js" 
+    },
+    "permissions": [
+      "tabs", 
+      "activeTab" 
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+}
